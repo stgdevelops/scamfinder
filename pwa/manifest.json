@@ -1,0 +1,30 @@
+{
+  "name": "ScamFinder",
+  "short_name": "ScamFinder",
+  "description": "ScamFinder is a new and easier way to detect if a scammer is calling you, just enter the phone number and see if there's any reports from anyone of our VERY small community",
+  "lang": "en-US",
+  "start_url": "https://scamfinder.tk/",
+  "display": "standalone",
+  "theme_color": "#FFA500",
+  "background_color": "#FFA500",
+  "orientation": "portrait",
+  "prefer_related_application" : false,
+  "icons": [
+    {
+      "src": "https://i.ibb.co/1T4rf3w/CC-20210406-195814.png",
+      "sizes": "410x410",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/1T4rf3w/CC-20210406-195814.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/3T9mbVg/maskable-icon.png",
+      "sizes": "410x410",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
