@@ -1,23 +1,27 @@
 <!doctype html>
 
 <head>
-  <title>Report | ScamFinder</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="ScamFinder is a new and easier way to detect if a scammer is calling you, just enter the phone number and see if there's any reports from anyone of our VERY small community">
-  <link rel="icon" type="image/png" href="https://i.ibb.co/1T4rf3w/CC-20210406-195814.png">
-  <meta name="theme-color" content="#FFA500">
-  <link href="./css?folder=Home&file=style" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="https://kit.fontawesome.com/c63ea35aec.js" crossorigin="anonymous"></script>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<title>Report | ScamFinder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="ScamFinder is a new and easier way to detect if a scammer is calling you, just enter the phone number and see if there's any reports from anyone of our VERY small community">
+	<link rel="icon" type="image/png" href="https://i.ibb.co/1T4rf3w/CC-20210406-195814.png">
+	<meta name="theme-color" content="#FFA500">
+	<link href="./css?folder=Home&file=style" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="/socket.io/socket.io.js">
+
+	</script>
+	<script src="https://kit.fontawesome.com/c63ea35aec.js" crossorigin="anonymous">
+
+	</script>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
+	<noscript>Sorry, this website requires JavaScript!</noscript>
 
-  <header>
+	<header>
 		<nav class="bg-gray-800">
 			<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
 				<div class="relative flex items-center justify-between h-16">
@@ -96,20 +100,50 @@
 
   </div>
 
-  <script src="/js?file=script&folder=Report"></script>
+  <div id="contextMenu" class="fixed z-3 w-150 bg-black origin-top-left transform scale-0">
+   <!-- Options -->
+   <div class="p-2 pr-2.5 text-lg text-white hover:bg-gray-500" onclick="copy()">
+    <i class="fa fa-clone"></i> Copy
+   </div>
 
+   <div class="p-2 pr-2.5 text-lg text-white hover:bg-gray-500" onclick="paste()">
+     <i class="fa fa-paste"></i> Paste
+   </div>
+   
+   <div class="p-2 pr-2.5 text-lg text-white hover:bg-gray-500" onclick="check()">
+     <i class="fa fa-check"></i> Check Number
+   </div>
+
+   <hr>
+
+   <div class="p-2 pr-2.5 text-lg text-white hover:bg-gray-500">
+     <i class="fa fa-times"></i> Exit
+   </div>
+   
+  </div>
+  
+  <script src="/js?file=script&folder=Report"></script>
+  
+  <style>
+    .active {
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+</style>
 </body>
 
-<footer class="absolute bg-white font-black inset-x-0 bottom-0 h-25">
+<footer class="absolute bg-white inset-x-0 bottom-0 h-25">
   <center>
-    <p>created by <a>selectthegang</a></p>
+    <p>created by <b>selectthegang</b></p>
+
+    <div style="padding: 3px;"></div>
 
   <div class="links">
-   <a href="https://github.com/stgdevelops/scamfinder"><i class="fab fa-github"></i></a>
-    <a href="https://twitch.tv/selectthegang"><i class="fab fa-twitch"></i></a>
-    <a href="https://discord.gg/gwKQ2gTpba"><i class="fab fa-discord"></i></a>
-    <a href="https://twitter.com/stgdevelopers"><i class="fab fa-twitter"></i></a>
-    <a href="https://reddit.com/r/selectthegang"><i class="fab fa-reddit"></i></a>
+    <a href="https://github.com/stgdevelops/scamfinder"><i class="fab fa-github pr-1.5"></i></a>
+    <a href="https://twitch.tv/selectthegang"><i class="fab fa-twitch pr-1.5"></i></a>
+    <a href="https://discord.gg/gwKQ2gTpba"><i class="fab fa-discord pr-1.5"></i></a>
+    <a href="https://twitter.com/stgdevelopers"><i class="fab fa-twitter pr-1.5"></i></a>
+    <a href="https://reddit.com/r/selectthegang"><i class="fab fa-reddit pr-1.5"></i></a>
   </div>
   </center>
 </footer>

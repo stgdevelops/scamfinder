@@ -5,3 +5,8 @@ body {
   border: 0;
   font-family: Helvetica, sans-serif;
 }
+
+.active {
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
