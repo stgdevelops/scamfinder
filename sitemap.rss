@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <rss version="2.0">
   <channel>
     <title>Report | ScamFinder</title>
@@ -11,13 +10,6 @@
       <link>https://scamfinder.tk/report</link>
       <description>ScamFinder is a new and easier way to detect if a scammer is calling you, just enter the phone number and see if there's any reports from anyone of our VERY small community</description>
       <pubDate>Sun, 09 May 2021 03:39:02 Z</pubDate>
-    </item>
-    <item>
-      <guid>https://scamfinder.tk/scambaiters</guid>
-      <title>Scambaiters | ScamFinder</title>
-      <link>https://scamfinder.tk/scambaiters</link>
-      <description>ScamFinder is a new and easier way to detect if a scammer is calling you, just enter the phone number and see if there's any reports from anyone of our VERY small community</description>
-      <pubDate>Mon, 10 May 2021 06:45:36 Z</pubDate>
     </item>
     <item>
       <guid>https://scamfinder.tk/alexa</guid>
@@ -63,4 +55,3 @@
     </item>
   </channel>
 </rss>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
